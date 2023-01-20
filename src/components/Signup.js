@@ -33,7 +33,7 @@ const Signup = (props) => {
       props.showAlert("Account created successfully", "success");
       navigate("/");
     } else {
-      props.showAlert("Invalid Credentials", "danger");
+      props.showAlert(json.error, "danger");
     }
   };
 

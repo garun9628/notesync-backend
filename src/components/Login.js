@@ -27,7 +27,7 @@ const Login = (props) => {
       props.showAlert("Logged in successfully", "success");
       navigate("/");
     } else {
-      props.showAlert("Invalid Details", "danger");
+      props.showAlert(json.error, "danger");
     }
   };
 
