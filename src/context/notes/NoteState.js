@@ -40,7 +40,7 @@ const NoteState = (props) => {
   // Delete a note
   const deleteNote = async (id) => {
     // Api call
-    const response = await fetch(`${host}/api/notes/deletenote/${id}`, {
+    await fetch(`${host}/api/notes/deletenote/${id}`, {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",
@@ -53,7 +53,7 @@ const NoteState = (props) => {
 
   const editNote = async (id, title, description, tag) => {
     // Api call
-    const response = await fetch(`${host}/api/notes/updatenote/${id}`, {
+    await fetch(`${host}/api/notes/updatenote/${id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
