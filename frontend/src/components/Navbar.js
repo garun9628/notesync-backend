@@ -25,7 +25,7 @@ function Navbar(props) {
             style={{ color: "rgb(180 202 204)" }}
             to="/"
           >
-            iNoteBook
+            Notesync
           </Link>
           <button
             className="navbar-toggler"
