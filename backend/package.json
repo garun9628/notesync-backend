@@ -1,7 +1,7 @@
 {
-  "name": "notesync-backend",
+  "name": "notesync",
   "version": "1.0.0",
-  "description": "Notesync - Your notebook on the cloud",
+  "description": "Notesync",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
