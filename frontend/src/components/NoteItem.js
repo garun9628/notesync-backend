@@ -26,7 +26,7 @@ const NoteItem = (props) => {
       >
         <div className="card-body">
           <div className="d-flex align-items-center justify-content-between">
-            <h5 class="card-subtitle mb-2 text-muted">{note.title}</h5>
+            <h5 className="card-subtitle mb-2 text-muted">{note.title}</h5>
             <div>
               <i className="far fa-trash-alt mx-2" onClick={handleDelete}></i>
               <i className="far fa-edit mx-2" onClick={handleEditClick}></i>

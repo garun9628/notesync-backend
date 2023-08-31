@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import NoteContext from "./NoteContext";
+import { BASE_URL } from "../../services/helper";
 
 const NoteState = (props) => {
-  const host = "http://localhost:5000";
+  const host = BASE_URL;
   const initialNotes = [];
 
   const [notes, setNotes] = useState(initialNotes);
